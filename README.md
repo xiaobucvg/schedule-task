@@ -59,3 +59,13 @@ cron:   0 8 * * *
 脚本描述: 每天8点自动进行[掘金]签到,抽奖(每天第一抽免费),获取矿石数量并推送消息
 使用方法: 青龙面板内添加环境变量[JUEJIN_SESSION_ID],其值可使用电脑登录[掘金]后,从开发者工具中Cookie里面获取
 ```
+
+## (三) 自动拉取库
+
+**3.1 配置自动拉取代码库**
+
+面板内新建定时任务:
+名称: 随意
+命令: `ql repo  https://github.com.cnpmjs.org/xiaobucvg/schedule-task.git "task-" "backup"`
+定时规则: 0 0 0/2 * * ? 
+标签: 自定
