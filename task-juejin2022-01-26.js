@@ -1,12 +1,3 @@
-/*
-掘金签到-抽奖
-更新时间：2022-01-26
-
-脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-============Quantumultx===============
-[task_local]
-10 * * * * task-juejin2022-02-26.js, tag=掘金签到-抽奖task_local, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
-*/
 
 // 主机
 const host = "https://api.juejin.cn/";
