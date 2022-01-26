@@ -57,4 +57,5 @@ task <file_path> desi <env_name> <account_number>
 脚本路径: task-掘金每日签到抽奖.js
 cron:   0 8 * * *
 脚本描述: 每天8点自动进行[掘金]签到,抽奖(每天第一抽免费),获取矿石数量并推送消息
+使用方法: 青龙面板内添加环境变量[JUEJIN_SESSION_ID],其值可使用电脑登录[掘金]后,从开发者工具中Cookie里面获取
 ```
