@@ -1,6 +1,11 @@
 /*
-cron "0 8 * * *" tag=掘金签到-抽奖-获取矿石数量
- */
+掘金签到-抽奖
+更新时间：2022-01-26
+
+=========================Loon=============================
+[Script]
+cron "0 8 * * *" script-path=task-掘金每日签到抽奖.js,tag=掘金签到-抽奖
+*/
 const $ = require("./Dep-Env");
 const NotifyUtil = require("./sendNotify");
 const NuggetsClient = require("./Dep-NuggetsClient");
