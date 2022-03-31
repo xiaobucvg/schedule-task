@@ -2,9 +2,9 @@
 [Script]
 cron "0 8 * * *" tag=掘金签到-抽奖-获取矿石数量
 */
-const $ = require("../env&util/Env");
-const NotifyUtil = require("../sendNotify");
-const NuggetsClient = require("../NuggetsClient.js");
+const $ = require("./Dep-Env");
+const NotifyUtil = require("./sendNotify");
+const NuggetsClient = require("./Dep-NuggetsClient");
 
 $.cookie = process.env.JUEJIN_COOKIE;
 

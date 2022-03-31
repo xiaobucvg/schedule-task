@@ -1,4 +1,4 @@
-const $ = require("./Env");
+const $ = require("./Dep-Env");
 
 module.exports = class PromiseUtil {
 	static GET = "get";

@@ -1,4 +1,4 @@
-const PromiseUtil = require("./env&util/PromiseUtil");
+const PromiseUtil = require("./Dep-PromiseUtil");
 
 /**
  * 掘金客户端
