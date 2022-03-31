@@ -1,5 +1,5 @@
 /*
-cron "0 8 * * *" 掘金签到-抽奖-获取矿石数量
+cron "0 8 * * *" tag=掘金签到-抽奖-获取矿石数量
  */
 const $ = require("./Dep-Env");
 const NotifyUtil = require("./sendNotify");
